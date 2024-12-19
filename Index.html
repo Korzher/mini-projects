@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="style.css" rel="stylesheet" />
+  <title>To Do List</title>
+  <style>
+    body {
+      background-size: 24px 24px;
+    }
+  </style>
+</head>
+<body background="pexels-photo-28.png">
+  <div id="elem">
+    <h2 class="name">To Do List<br /></h2>
+    <ol class="task-list" id="taskList"></ol>
+    <div id="button">
+      <input type="text" id="taskInput" placeholder="Новая задача" /> <br />
+      <button onclick="addTask()">Добавить задачу</button>
+    </div>
+  </div>
+  <script src="Task add.js"></script>
+</body>
