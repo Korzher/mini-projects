@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.displayPlaces {
+  width: 100%;
+  margin: auto;
+}
+
+.displayWeather {
+  width: 100%;
+  margin: auto;
+}
