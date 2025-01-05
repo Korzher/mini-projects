@@ -1,0 +1,12 @@
+body {
+  background: green;
+  color: white;
+}
+
+#first-div {
+  background: pink;
+}
+
+.breed {
+  font-size: 2rem;
+}
