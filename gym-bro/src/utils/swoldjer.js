@@ -9,17 +9,17 @@ export const TEMPOS = [
 ];
 
 export const SCHEMES = {
-  strength_power: {
+  СИЛА: {
     repRanges: [3, 8],
     ratio: [3, 2],
     rest: [120, 60],
   },
-  growth_hypertrophy: {
+  МАССА: {
     repRanges: [8, 15],
     ratio: [2, 3],
     rest: [90, 60],
   },
-  cardiovascular_endurance: {
+  ВЫНОСЛИВОСТЬ: {
     repRanges: [12, 30],
     ratio: [2, 4],
     rest: [60, 45],
