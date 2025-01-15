@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./button";
 
 export default function Hero() {
   return (
@@ -21,9 +22,12 @@ export default function Hero() {
           </span>
           , неспособной протиснуться в дверь.
         </p>
-        <button className="px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
-          <p>Принять и начать!</p>
-        </button>
+        <Button
+          func={() => {
+            window.location.href = "#generate";
+          }}
+          text={"Принять и начать!"}
+        />
       </div>
     </>
   );
